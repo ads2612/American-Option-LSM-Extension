@@ -14,3 +14,10 @@ Final exam for Dynamic programming at UCPH. Implementation and analysis of Longs
    ```bash
    conda env create -f Multiasset_environment.yml
    conda activate american-lsm
+## Post-submission update
+Neural-network continuation value now works after applying Bengio’s practical training guidelines
+for deep networks (learning-rate schedule, initialization, normalization, early stopping, and random
+hyperparameter search).
+
+**Reference:** Bengio, Y. (2012). Practical recommendations for gradient-based training of deep architectures.
+arXiv:1206.5533.
